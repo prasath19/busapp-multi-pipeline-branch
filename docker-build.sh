@@ -1,6 +1,6 @@
 #!/bin/bash
 
-version=mas
+version=master
 
 docker build -t learnitguide/busapp:${version} .
 docker push learnitguide/busapp:${version}
