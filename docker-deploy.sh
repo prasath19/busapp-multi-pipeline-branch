@@ -1,7 +1,7 @@
 #!/bin/bash
 
-version=mas
-env="mas"
+version=master
+env="master"
 
 if docker ps -a --format '{{.Names}}' | grep "${env}"
 then
